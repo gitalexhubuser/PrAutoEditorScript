@@ -13,7 +13,7 @@
 По умолчанию мы каждый раз пишем макрос в `[cmd] командную строку Windows`.
 
 Данный репозиторий даёт вам скрипт, чтоб можно было тупо
-**перетаскивать видео** на bat скрипт при помощи технологии (Drag & drop)!
+**перетаскивать видео** на bat скрипт при помощи технологии **Drag & drop**!
 
 ---
 
@@ -32,7 +32,9 @@
 > Обновить auto-editor `pip install auto-editor --upgrade`
 
 > История версий:
+
 > 23w15a 23 15 1
+
 > 23w20b 23 20 2
 
 ---
@@ -52,7 +54,7 @@
 
 ## Рекомендации
 
-Хорошо сочетается вместе с [YouTube-chapter-creator-helper](https://github.com/gitalexhubuser/YouTube-chapter-creator-helper)
+Хорошо сочетается вместе с: [YouTube-chapter-creator-helper](https://github.com/gitalexhubuser/YouTube-chapter-creator-helper)
 
 ---
 
