@@ -4,7 +4,7 @@
 
 ## Описание
 
-Полезный bat скрипт для создателей видео контента!
+Полезный **bat скрипт** для создателей видео контента!
 
 При помощи библиотеки [auto-editor](github.com/wyattblue/auto-editor) - автоматически вырезаются тихие участки в отснятом видео.
 
@@ -13,7 +13,7 @@
 По умолчанию мы каждый раз пишем макрос в `[cmd] командную строку Windows`.
 
 Данный репозиторий даёт вам скрипт, чтоб можно было тупо
-перетаскивать видео на bat скрипт при помощи технологии (Drag & drop)!
+**перетаскивать видео** на bat скрипт при помощи технологии (Drag & drop)!
 
 ---
 
@@ -23,9 +23,9 @@
     - cmd
     - `pip install auto-editor`
 - Не стоит Python ?
-    - Ставим Python python.org/downloads/
-    - Изучаем самостоятельно github.com/wyattblue/auto-editor
-    - Смотрим видео youtu.be/X02QkrWPZw8
+    - Ставим **Python** [python.org/downloads/](https://www.python.org/downloads/)
+    - Изучаем самостоятельно [github/wyattblue/auto-editor](https://github.com/wyattblue/auto-editor)
+    - Смотрим видео [youtube/X02QkrWPZw8](https://www.youtube.com/watch?v=X02QkrWPZw8)
 
 > Проверить версию auto-editor `auto-editor -V`
 
@@ -41,7 +41,12 @@
 
 ![Cmd](Images/image3.png)
 
-- `dragAndDrop.cmd`
+- Скопировать `dragAndDrop.cmd` в папку с проектом
+- Перетащить видео на cmd
+- Дождаться завершения выполнения скрипта
+- Открыть получившийся **xml** в **Pr**
+
+> Ps: может не сработать, если в названии видео будут спец символы!
 
 ---
 
