@@ -1,5 +1,0 @@
-auto-editor -V 
-23w15a 23 15 1
-
-pip install auto-editor --upgrade
-23w20b 23 20 2
