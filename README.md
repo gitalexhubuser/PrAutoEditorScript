@@ -6,8 +6,13 @@ Bat скрипт для перетаскивания на него видео (D
 
 ---
 
+## Установка `auto-editor`
 
-## Одним
+- [x] https://youtu.be/X02QkrWPZw8
+
+---
+
+## Простой скрипт
 
 ```bash
 # Чтоб воспользоватся - переименуй видео файл в 1.mp4
@@ -16,7 +21,7 @@ auto-editor "1.mp4" --export premiere --margin 0.2sec
 
 ---
 
-## Драг
+## С использованием `Drag & drop`
 
 ```bash
 @echo off
@@ -37,10 +42,9 @@ if not exist "%~1" (
 
 REM Ваш код с использованием перетащенного файла
 auto-editor "%~1" --export premiere --margin 0.2sec
-
-pause
-
 ```
+
+> Актуальный скрипт, который я использую!!!
 
 ---
 
