@@ -1,24 +1,31 @@
 # PrAutoEditorScript
 
+![Video](Images\image2.png)
+
 ## Описание
 
-Bat скрипт для создателей видео контента!
+Полезный bat скрипт для создателей видео контента!
 
-При помощи библиотеки `auto-editor` - автоматически вырезаются тихие участки в отснятом видео.
+При помощи библиотеки [auto-editor](github.com/wyattblue/auto-editor) - автоматически вырезаются тихие участки в отснятом видео.
 
-И подготавливается xml файл с проектом, для экспорта в Pr.
+И при использовании спец команд библиотеки - подготавливается `xml файл` с проектом, для дальнейшего экспорта в `Adobe Premiere Pro`.
 
-По умолчанию мы каждый раз пишем макрос в командную строку cmd.
+По умолчанию мы каждый раз пишем макрос в `[cmd] командную строку Windows`.
 
 Данный репозиторий даёт вам скрипт, чтоб можно было тупо
-перетаскивать видео на bat скрипт при помощи технологии (Drag & drop)
+перетаскивать видео на bat скрипт при помощи технологии (Drag & drop)!
 
 ---
 
 ## Установка `auto-editor`
 
-- [x] github.com/wyattblue/auto-editor
-- [x] https://youtu.be/X02QkrWPZw8
+- Стоит Python ?
+    - cmd
+    - `pip install auto-editor`
+- Не стоит Python ?
+    - Ставим Python python.org/downloads/
+    - Изучаем самостоятельно github.com/wyattblue/auto-editor
+    - Смотрим видео youtu.be/X02QkrWPZw8
 
 > Проверить версию auto-editor `auto-editor -V`
 
@@ -32,6 +39,8 @@ Bat скрипт для создателей видео контента!
 
 ## Использование
 
+![Cmd](Images\image3.png)
+
 - `dragAndDrop.cmd`
 
 ---
@@ -44,7 +53,7 @@ Bat скрипт для создателей видео контента!
 
 # Скрипты
 
-![Alt text](.Images/image.png)
+![Scripts](Images/image.png)
 
 ## Простой скрипт
 
@@ -52,6 +61,8 @@ Bat скрипт для создателей видео контента!
 # Чтоб воспользоватся - переименуй видео файл в 1.mp4
 auto-editor "1.mp4" --export premiere --margin 0.2sec
 ```
+
+> 1mp4ToXml.cmd
 
 ---
 
@@ -76,9 +87,14 @@ if not exist "%~1" (
 
 REM Ваш код с использованием перетащенного файла
 auto-editor "%~1" --export premiere --margin 0.2sec
+
+pause
+
 ```
 
-> Актуальный скрипт, который я использую!!!
+> dragAndDrop.cmd
+
+> `Актуальный скрипт`, который [я](https://www.youtube.com/channel/UCjDdSdLJbbV0UBtzKpClmig) использую!!!
 
 ---
 

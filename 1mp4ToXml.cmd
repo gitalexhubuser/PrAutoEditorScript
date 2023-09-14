@@ -1,1 +1,0 @@
-auto-editor "1.mp4" --export premiere --margin 0.2sec

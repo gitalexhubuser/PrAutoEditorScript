@@ -16,5 +16,3 @@ if not exist "%~1" (
 
 REM Ваш код с использованием перетащенного файла
 auto-editor "%~1" --export premiere --margin 0.2sec
-
-pause
