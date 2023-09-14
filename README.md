@@ -1,6 +1,6 @@
 # PrAutoEditorScript
 
-![Video](Images\image2.png)
+![Video](Images/image2.png)
 
 ## Описание
 
@@ -39,7 +39,7 @@
 
 ## Использование
 
-![Cmd](Images\image3.png)
+![Cmd](Images/image3.png)
 
 - `dragAndDrop.cmd`
 
